@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 
@@ -36,7 +36,7 @@
 #include "../module/planner.h"        // for synchronize
 #include "../module/printcounter.h"
 #include "../gcode/queue.h"
-#include "../module/configuration_store.h"
+#include "../module/settings.h"
 #include "../module/stepper/indirection.h"
 
 #if ENABLED(EMERGENCY_PARSER)
